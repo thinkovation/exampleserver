@@ -1,0 +1,300 @@
+2025/03/09 10:39:39 [INFO] Starting server...
+2025/03/09 10:39:39 [INFO] Server starting on port 8080
+2025/03/09 10:40:22 [ERROR] Authentication failed: no credentials provided
+2025/03/09 10:40:39 [INFO] [Stats] Time: 2025-03-09T10:40:39Z, Goroutines: 5, Memory: {Alloc: 1.53MB, TotalAlloc: 1.53MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 10:40:43 [INFO] Shutdown signal received
+2025/03/09 10:40:43 [INFO] Waiting for all goroutines to finish...
+2025/03/09 10:40:43 [INFO] All goroutines finished
+2025/03/09 10:40:45 [INFO] Starting server...
+2025/03/09 10:40:45 [INFO] Server starting on port 8080
+2025/03/09 10:40:57 [ERROR] Authentication failed: no credentials provided
+2025/03/09 10:41:06 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:33: Listing customers
+2025/03/09 10:41:45 [INFO] [Stats] Time: 2025-03-09T10:41:45Z, Goroutines: 5, Memory: {Alloc: 1.50MB, TotalAlloc: 1.50MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 10:42:45 [INFO] [Stats] Time: 2025-03-09T10:42:45Z, Goroutines: 4, Memory: {Alloc: 1.50MB, TotalAlloc: 1.50MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 10:43:45 [INFO] [Stats] Time: 2025-03-09T10:43:45Z, Goroutines: 4, Memory: {Alloc: 1.50MB, TotalAlloc: 1.50MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 10:44:45 [INFO] [Stats] Time: 2025-03-09T10:44:45Z, Goroutines: 4, Memory: {Alloc: 1.51MB, TotalAlloc: 1.51MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 10:45:45 [INFO] [Stats] Time: 2025-03-09T10:45:45Z, Goroutines: 4, Memory: {Alloc: 1.51MB, TotalAlloc: 1.51MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 10:46:45 [INFO] [Stats] Time: 2025-03-09T10:46:45Z, Goroutines: 4, Memory: {Alloc: 1.51MB, TotalAlloc: 1.51MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 10:47:45 [INFO] [Stats] Time: 2025-03-09T10:47:45Z, Goroutines: 4, Memory: {Alloc: 1.51MB, TotalAlloc: 1.51MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 10:48:45 [INFO] [Stats] Time: 2025-03-09T10:48:45Z, Goroutines: 4, Memory: {Alloc: 1.51MB, TotalAlloc: 1.51MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 10:49:27 [INFO] Shutdown signal received
+2025/03/09 10:49:27 [INFO] Waiting for all goroutines to finish...
+2025/03/09 10:49:27 [INFO] All goroutines finished
+2025/03/09 10:49:30 [INFO] Starting server...
+2025/03/09 10:49:30 [INFO] Server starting on port 8080
+2025/03/09 10:50:02 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:33: Listing customers
+2025/03/09 10:50:30 [INFO] [Stats] Time: 2025-03-09T10:50:30Z, Goroutines: 5, Memory: {Alloc: 1.57MB, TotalAlloc: 1.57MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 10:51:30 [INFO] [Stats] Time: 2025-03-09T10:51:30Z, Goroutines: 4, Memory: {Alloc: 1.57MB, TotalAlloc: 1.57MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 10:52:30 [INFO] [Stats] Time: 2025-03-09T10:52:30Z, Goroutines: 4, Memory: {Alloc: 1.58MB, TotalAlloc: 1.58MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 10:52:32 [INFO] Shutdown signal received
+2025/03/09 10:52:32 [INFO] Waiting for all goroutines to finish...
+2025/03/09 10:52:32 [INFO] All goroutines finished
+2025/03/09 10:52:35 [INFO] Starting server...
+2025/03/09 10:52:35 [INFO] Server starting on port 8080
+2025/03/09 10:53:35 [INFO] [Stats] Time: 2025-03-09T10:53:35Z, Goroutines: 5, Memory: {Alloc: 1.52MB, TotalAlloc: 1.52MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 10:54:35 [INFO] [Stats] Time: 2025-03-09T10:54:35Z, Goroutines: 4, Memory: {Alloc: 1.52MB, TotalAlloc: 1.52MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 10:55:35 [INFO] [Stats] Time: 2025-03-09T10:55:35Z, Goroutines: 4, Memory: {Alloc: 1.52MB, TotalAlloc: 1.52MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 10:56:35 [INFO] [Stats] Time: 2025-03-09T10:56:35Z, Goroutines: 4, Memory: {Alloc: 1.52MB, TotalAlloc: 1.52MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 10:57:35 [INFO] [Stats] Time: 2025-03-09T10:57:35Z, Goroutines: 4, Memory: {Alloc: 1.52MB, TotalAlloc: 1.52MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 10:58:35 [INFO] [Stats] Time: 2025-03-09T10:58:35Z, Goroutines: 4, Memory: {Alloc: 1.52MB, TotalAlloc: 1.52MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 10:59:35 [INFO] [Stats] Time: 2025-03-09T10:59:35Z, Goroutines: 4, Memory: {Alloc: 1.52MB, TotalAlloc: 1.52MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 11:00:35 [INFO] [Stats] Time: 2025-03-09T11:00:35Z, Goroutines: 4, Memory: {Alloc: 1.53MB, TotalAlloc: 1.53MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 11:01:35 [INFO] [Stats] Time: 2025-03-09T11:01:35Z, Goroutines: 4, Memory: {Alloc: 1.53MB, TotalAlloc: 1.53MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 11:02:35 [INFO] [Stats] Time: 2025-03-09T11:02:35Z, Goroutines: 4, Memory: {Alloc: 1.53MB, TotalAlloc: 1.53MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 11:03:35 [INFO] [Stats] Time: 2025-03-09T11:03:35Z, Goroutines: 4, Memory: {Alloc: 1.53MB, TotalAlloc: 1.53MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 11:04:35 [INFO] [Stats] Time: 2025-03-09T11:04:35Z, Goroutines: 4, Memory: {Alloc: 1.53MB, TotalAlloc: 1.53MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 11:05:35 [INFO] [Stats] Time: 2025-03-09T11:05:35Z, Goroutines: 4, Memory: {Alloc: 1.53MB, TotalAlloc: 1.53MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 11:06:35 [INFO] [Stats] Time: 2025-03-09T11:06:35Z, Goroutines: 4, Memory: {Alloc: 1.53MB, TotalAlloc: 1.53MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 11:07:35 [INFO] [Stats] Time: 2025-03-09T11:07:35Z, Goroutines: 4, Memory: {Alloc: 1.53MB, TotalAlloc: 1.53MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 11:08:32 [INFO] Shutdown signal received
+2025/03/09 11:08:32 [INFO] Waiting for all goroutines to finish...
+2025/03/09 11:08:32 [INFO] All goroutines finished
+2025/03/09 11:08:35 [INFO] Starting server...
+2025/03/09 11:08:35 [INFO] Server starting on port 8080
+2025/03/09 11:09:35 [INFO] [Stats] Time: 2025-03-09T11:09:35Z, Goroutines: 5, Memory: {Alloc: 1.60MB, TotalAlloc: 1.60MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 11:10:35 [INFO] [Stats] Time: 2025-03-09T11:10:35Z, Goroutines: 5, Memory: {Alloc: 1.69MB, TotalAlloc: 1.69MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:11:35 [INFO] [Stats] Time: 2025-03-09T11:11:35Z, Goroutines: 4, Memory: {Alloc: 1.69MB, TotalAlloc: 1.69MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:11:45 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:33: Listing customers
+2025/03/09 11:11:46 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:33: Listing customers
+2025/03/09 11:11:46 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:33: Listing customers
+2025/03/09 11:12:35 [INFO] [Stats] Time: 2025-03-09T11:12:35Z, Goroutines: 5, Memory: {Alloc: 1.75MB, TotalAlloc: 1.75MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:13:35 [INFO] [Stats] Time: 2025-03-09T11:13:35Z, Goroutines: 4, Memory: {Alloc: 1.75MB, TotalAlloc: 1.75MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:14:35 [INFO] [Stats] Time: 2025-03-09T11:14:35Z, Goroutines: 4, Memory: {Alloc: 1.75MB, TotalAlloc: 1.75MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:15:35 [INFO] [Stats] Time: 2025-03-09T11:15:35Z, Goroutines: 4, Memory: {Alloc: 1.75MB, TotalAlloc: 1.75MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:16:35 [INFO] [Stats] Time: 2025-03-09T11:16:35Z, Goroutines: 4, Memory: {Alloc: 1.75MB, TotalAlloc: 1.75MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:17:35 [INFO] [Stats] Time: 2025-03-09T11:17:35Z, Goroutines: 4, Memory: {Alloc: 1.75MB, TotalAlloc: 1.75MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:18:35 [INFO] [Stats] Time: 2025-03-09T11:18:35Z, Goroutines: 4, Memory: {Alloc: 1.75MB, TotalAlloc: 1.75MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:19:35 [INFO] [Stats] Time: 2025-03-09T11:19:35Z, Goroutines: 4, Memory: {Alloc: 1.75MB, TotalAlloc: 1.75MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:20:35 [INFO] [Stats] Time: 2025-03-09T11:20:35Z, Goroutines: 4, Memory: {Alloc: 1.75MB, TotalAlloc: 1.75MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:21:35 [INFO] [Stats] Time: 2025-03-09T11:21:35Z, Goroutines: 4, Memory: {Alloc: 1.75MB, TotalAlloc: 1.75MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:22:35 [INFO] [Stats] Time: 2025-03-09T11:22:35Z, Goroutines: 4, Memory: {Alloc: 1.75MB, TotalAlloc: 1.75MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:23:35 [INFO] [Stats] Time: 2025-03-09T11:23:35Z, Goroutines: 4, Memory: {Alloc: 1.75MB, TotalAlloc: 1.75MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:24:35 [INFO] [Stats] Time: 2025-03-09T11:24:35Z, Goroutines: 4, Memory: {Alloc: 1.76MB, TotalAlloc: 1.76MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:40:55 [INFO] [Stats] Time: 2025-03-09T11:40:54Z, Goroutines: 4, Memory: {Alloc: 1.76MB, TotalAlloc: 1.76MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:41:35 [INFO] [Stats] Time: 2025-03-09T11:41:35Z, Goroutines: 4, Memory: {Alloc: 1.76MB, TotalAlloc: 1.76MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:42:35 [INFO] [Stats] Time: 2025-03-09T11:42:35Z, Goroutines: 4, Memory: {Alloc: 1.76MB, TotalAlloc: 1.76MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:43:35 [INFO] [Stats] Time: 2025-03-09T11:43:35Z, Goroutines: 4, Memory: {Alloc: 1.76MB, TotalAlloc: 1.76MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:44:35 [INFO] [Stats] Time: 2025-03-09T11:44:35Z, Goroutines: 4, Memory: {Alloc: 1.76MB, TotalAlloc: 1.76MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:45:35 [INFO] [Stats] Time: 2025-03-09T11:45:35Z, Goroutines: 4, Memory: {Alloc: 1.77MB, TotalAlloc: 1.77MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:46:35 [INFO] [Stats] Time: 2025-03-09T11:46:35Z, Goroutines: 4, Memory: {Alloc: 1.77MB, TotalAlloc: 1.77MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:47:35 [INFO] [Stats] Time: 2025-03-09T11:47:35Z, Goroutines: 4, Memory: {Alloc: 1.77MB, TotalAlloc: 1.77MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:48:35 [INFO] [Stats] Time: 2025-03-09T11:48:35Z, Goroutines: 4, Memory: {Alloc: 1.77MB, TotalAlloc: 1.77MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:49:35 [INFO] [Stats] Time: 2025-03-09T11:49:35Z, Goroutines: 4, Memory: {Alloc: 1.77MB, TotalAlloc: 1.77MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:50:35 [INFO] [Stats] Time: 2025-03-09T11:50:35Z, Goroutines: 4, Memory: {Alloc: 1.77MB, TotalAlloc: 1.77MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:51:35 [INFO] [Stats] Time: 2025-03-09T11:51:35Z, Goroutines: 4, Memory: {Alloc: 1.77MB, TotalAlloc: 1.77MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:52:35 [INFO] [Stats] Time: 2025-03-09T11:52:35Z, Goroutines: 4, Memory: {Alloc: 1.77MB, TotalAlloc: 1.77MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:53:35 [INFO] [Stats] Time: 2025-03-09T11:53:35Z, Goroutines: 4, Memory: {Alloc: 1.77MB, TotalAlloc: 1.77MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:54:35 [INFO] [Stats] Time: 2025-03-09T11:54:35Z, Goroutines: 4, Memory: {Alloc: 1.77MB, TotalAlloc: 1.77MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:55:35 [INFO] [Stats] Time: 2025-03-09T11:55:35Z, Goroutines: 4, Memory: {Alloc: 1.77MB, TotalAlloc: 1.77MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:56:35 [INFO] [Stats] Time: 2025-03-09T11:56:35Z, Goroutines: 4, Memory: {Alloc: 1.77MB, TotalAlloc: 1.77MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:57:35 [INFO] [Stats] Time: 2025-03-09T11:57:35Z, Goroutines: 4, Memory: {Alloc: 1.77MB, TotalAlloc: 1.77MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:58:35 [INFO] [Stats] Time: 2025-03-09T11:58:35Z, Goroutines: 4, Memory: {Alloc: 1.77MB, TotalAlloc: 1.77MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 11:59:35 [INFO] [Stats] Time: 2025-03-09T11:59:35Z, Goroutines: 4, Memory: {Alloc: 1.77MB, TotalAlloc: 1.77MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 12:00:35 [INFO] [Stats] Time: 2025-03-09T12:00:35Z, Goroutines: 4, Memory: {Alloc: 1.78MB, TotalAlloc: 1.78MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 12:01:35 [INFO] [Stats] Time: 2025-03-09T12:01:35Z, Goroutines: 4, Memory: {Alloc: 1.78MB, TotalAlloc: 1.78MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 12:02:35 [INFO] [Stats] Time: 2025-03-09T12:02:35Z, Goroutines: 4, Memory: {Alloc: 1.78MB, TotalAlloc: 1.78MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 12:02:52 [INFO] Shutdown signal received
+2025/03/09 12:02:52 [INFO] Waiting for all goroutines to finish...
+2025/03/09 12:02:52 [INFO] All goroutines finished
+2025/03/09 12:02:57 [INFO] Starting server...
+2025/03/09 12:02:57 [INFO] Server starting on port 8080
+2025/03/09 12:03:57 [INFO] [Stats] Time: 2025-03-09T12:03:57Z, Goroutines: 6, Memory: {Alloc: 1.58MB, TotalAlloc: 1.58MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 12:04:57 [INFO] [Stats] Time: 2025-03-09T12:04:57Z, Goroutines: 7, Memory: {Alloc: 1.64MB, TotalAlloc: 1.64MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 12:05:57 [INFO] [Stats] Time: 2025-03-09T12:05:57Z, Goroutines: 5, Memory: {Alloc: 1.64MB, TotalAlloc: 1.64MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 12:06:53 [INFO] Shutdown signal received
+2025/03/09 12:06:53 [INFO] Waiting for all goroutines to finish...
+2025/03/09 12:06:53 [INFO] All goroutines finished
+2025/03/09 12:06:57 [INFO] Starting server...
+2025/03/09 12:06:57 [INFO] Server starting on port 8080
+2025/03/09 12:07:57 [INFO] [Stats] Time: 2025-03-09T12:07:57Z, Goroutines: 6, Memory: {Alloc: 1.58MB, TotalAlloc: 1.58MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 12:08:57 [INFO] [Stats] Time: 2025-03-09T12:08:57Z, Goroutines: 5, Memory: {Alloc: 1.58MB, TotalAlloc: 1.58MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 12:09:11 [INFO] Shutdown signal received
+2025/03/09 12:09:11 [INFO] Waiting for all goroutines to finish...
+2025/03/09 12:09:11 [INFO] All goroutines finished
+2025/03/09 12:09:15 [INFO] Starting server...
+2025/03/09 12:09:15 [INFO] Server starting on port 8080
+2025/03/09 12:10:15 [INFO] [Stats] Time: 2025-03-09T12:10:15Z, Goroutines: 6, Memory: {Alloc: 2.41MB, TotalAlloc: 2.41MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 12:11:15 [INFO] [Stats] Time: 2025-03-09T12:11:15Z, Goroutines: 5, Memory: {Alloc: 2.41MB, TotalAlloc: 2.41MB, Sys: 10.52MB, NumGC: 0}
+2025/03/09 12:11:22 [INFO] Shutdown signal received
+2025/03/09 12:11:22 [INFO] Waiting for all goroutines to finish...
+2025/03/09 12:11:22 [INFO] All goroutines finished
+2025/03/09 12:11:24 [INFO] Starting server...
+2025/03/09 12:11:24 [INFO] Server starting on port 8080
+2025/03/09 12:12:24 [INFO] [Stats] Time: 2025-03-09T12:12:24Z, Goroutines: 7, Memory: {Alloc: 2.45MB, TotalAlloc: 2.45MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 12:13:24 [INFO] [Stats] Time: 2025-03-09T12:13:24Z, Goroutines: 5, Memory: {Alloc: 2.46MB, TotalAlloc: 2.46MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 12:14:24 [INFO] [Stats] Time: 2025-03-09T12:14:24Z, Goroutines: 6, Memory: {Alloc: 2.64MB, TotalAlloc: 2.64MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 12:15:24 [INFO] [Stats] Time: 2025-03-09T12:15:24Z, Goroutines: 5, Memory: {Alloc: 2.64MB, TotalAlloc: 2.64MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 12:16:24 [INFO] [Stats] Time: 2025-03-09T12:16:24Z, Goroutines: 5, Memory: {Alloc: 2.64MB, TotalAlloc: 2.64MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 12:17:24 [INFO] [Stats] Time: 2025-03-09T12:17:24Z, Goroutines: 5, Memory: {Alloc: 2.64MB, TotalAlloc: 2.64MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 12:18:24 [INFO] [Stats] Time: 2025-03-09T12:18:24Z, Goroutines: 5, Memory: {Alloc: 2.64MB, TotalAlloc: 2.64MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 12:19:24 [INFO] [Stats] Time: 2025-03-09T12:19:24Z, Goroutines: 6, Memory: {Alloc: 2.72MB, TotalAlloc: 2.72MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 12:20:24 [INFO] [Stats] Time: 2025-03-09T12:20:24Z, Goroutines: 6, Memory: {Alloc: 2.77MB, TotalAlloc: 2.77MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 12:21:24 [INFO] [Stats] Time: 2025-03-09T12:21:24Z, Goroutines: 5, Memory: {Alloc: 2.77MB, TotalAlloc: 2.77MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 12:22:24 [INFO] [Stats] Time: 2025-03-09T12:22:24Z, Goroutines: 5, Memory: {Alloc: 2.77MB, TotalAlloc: 2.77MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 12:23:24 [INFO] [Stats] Time: 2025-03-09T12:23:24Z, Goroutines: 5, Memory: {Alloc: 2.77MB, TotalAlloc: 2.77MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 12:24:24 [INFO] [Stats] Time: 2025-03-09T12:24:24Z, Goroutines: 5, Memory: {Alloc: 2.77MB, TotalAlloc: 2.77MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 12:25:24 [INFO] [Stats] Time: 2025-03-09T12:25:24Z, Goroutines: 6, Memory: {Alloc: 2.84MB, TotalAlloc: 2.84MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:26:24 [INFO] [Stats] Time: 2025-03-09T12:26:24Z, Goroutines: 5, Memory: {Alloc: 2.84MB, TotalAlloc: 2.84MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:27:24 [INFO] [Stats] Time: 2025-03-09T12:27:24Z, Goroutines: 5, Memory: {Alloc: 2.84MB, TotalAlloc: 2.84MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:28:24 [INFO] [Stats] Time: 2025-03-09T12:28:24Z, Goroutines: 5, Memory: {Alloc: 2.84MB, TotalAlloc: 2.84MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:29:24 [INFO] [Stats] Time: 2025-03-09T12:29:24Z, Goroutines: 5, Memory: {Alloc: 2.84MB, TotalAlloc: 2.84MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:30:24 [INFO] [Stats] Time: 2025-03-09T12:30:24Z, Goroutines: 5, Memory: {Alloc: 2.85MB, TotalAlloc: 2.85MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:31:24 [INFO] [Stats] Time: 2025-03-09T12:31:24Z, Goroutines: 5, Memory: {Alloc: 2.85MB, TotalAlloc: 2.85MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:32:24 [INFO] [Stats] Time: 2025-03-09T12:32:24Z, Goroutines: 6, Memory: {Alloc: 2.91MB, TotalAlloc: 2.91MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:33:24 [INFO] [Stats] Time: 2025-03-09T12:33:24Z, Goroutines: 5, Memory: {Alloc: 2.91MB, TotalAlloc: 2.91MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:34:24 [INFO] [Stats] Time: 2025-03-09T12:34:24Z, Goroutines: 5, Memory: {Alloc: 2.91MB, TotalAlloc: 2.91MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:35:24 [INFO] [Stats] Time: 2025-03-09T12:35:24Z, Goroutines: 5, Memory: {Alloc: 2.91MB, TotalAlloc: 2.91MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:36:24 [INFO] [Stats] Time: 2025-03-09T12:36:24Z, Goroutines: 5, Memory: {Alloc: 2.91MB, TotalAlloc: 2.91MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:37:24 [INFO] [Stats] Time: 2025-03-09T12:37:24Z, Goroutines: 5, Memory: {Alloc: 2.91MB, TotalAlloc: 2.91MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:38:24 [INFO] [Stats] Time: 2025-03-09T12:38:24Z, Goroutines: 5, Memory: {Alloc: 2.91MB, TotalAlloc: 2.91MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:39:24 [INFO] [Stats] Time: 2025-03-09T12:39:24Z, Goroutines: 5, Memory: {Alloc: 2.91MB, TotalAlloc: 2.91MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:40:24 [INFO] [Stats] Time: 2025-03-09T12:40:24Z, Goroutines: 5, Memory: {Alloc: 2.91MB, TotalAlloc: 2.91MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:41:24 [INFO] [Stats] Time: 2025-03-09T12:41:24Z, Goroutines: 5, Memory: {Alloc: 2.91MB, TotalAlloc: 2.91MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:42:24 [INFO] [Stats] Time: 2025-03-09T12:42:24Z, Goroutines: 5, Memory: {Alloc: 2.91MB, TotalAlloc: 2.91MB, Sys: 11.02MB, NumGC: 0}
+2025/03/09 12:42:53 [INFO] Shutdown signal received
+2025/03/09 12:42:53 [INFO] Waiting for all goroutines to finish...
+2025/03/09 12:42:53 [INFO] All goroutines finished
+2025/03/09 12:42:58 [INFO] Starting server...
+2025/03/09 12:42:58 [INFO] Server starting on port 8080
+2025/03/09 12:43:58 [INFO] [Stats] Time: 2025-03-09T12:43:58Z, Goroutines: 6, Memory: {Alloc: 1.58MB, TotalAlloc: 1.58MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 12:44:58 [INFO] [Stats] Time: 2025-03-09T12:44:58Z, Goroutines: 5, Memory: {Alloc: 1.58MB, TotalAlloc: 1.58MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 12:45:58 [INFO] [Stats] Time: 2025-03-09T12:45:58Z, Goroutines: 5, Memory: {Alloc: 1.58MB, TotalAlloc: 1.58MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 12:46:58 [INFO] [Stats] Time: 2025-03-09T12:46:58Z, Goroutines: 5, Memory: {Alloc: 1.58MB, TotalAlloc: 1.58MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 12:47:53 [INFO] Shutdown signal received
+2025/03/09 12:47:53 [INFO] Waiting for all goroutines to finish...
+2025/03/09 12:47:53 [INFO] All goroutines finished
+2025/03/09 12:47:58 [INFO] Starting server...
+2025/03/09 12:47:58 [INFO] Server starting on port 8080
+2025/03/09 12:48:58 [INFO] [Stats] Time: 2025-03-09T12:48:58Z, Goroutines: 6, Memory: {Alloc: 1.74MB, TotalAlloc: 1.74MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 12:49:58 [INFO] [Stats] Time: 2025-03-09T12:49:58Z, Goroutines: 6, Memory: {Alloc: 1.79MB, TotalAlloc: 1.79MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 12:50:01 [INFO] Shutdown signal received
+2025/03/09 12:50:01 [INFO] Waiting for all goroutines to finish...
+2025/03/09 12:50:01 [INFO] All goroutines finished
+2025/03/09 12:50:02 [INFO] Starting server...
+2025/03/09 12:50:02 [INFO] Server starting on port 8080
+2025/03/09 12:50:16 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 12:50:17 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 12:50:18 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 12:51:02 [INFO] [Stats] Time: 2025-03-09T12:51:02Z, Goroutines: 6, Memory: {Alloc: 1.67MB, TotalAlloc: 1.67MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 12:51:49 [INFO] Shutdown signal received
+2025/03/09 12:51:49 [INFO] Waiting for all goroutines to finish...
+2025/03/09 12:51:49 [INFO] All goroutines finished
+2025/03/09 12:51:50 [INFO] Starting server...
+2025/03/09 12:51:50 [INFO] Server starting on port 8080
+2025/03/09 12:52:04 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 12:52:50 [INFO] [Stats] Time: 2025-03-09T12:52:50Z, Goroutines: 6, Memory: {Alloc: 1.60MB, TotalAlloc: 1.60MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 12:53:17 [INFO] Shutdown signal received
+2025/03/09 12:53:17 [INFO] Waiting for all goroutines to finish...
+2025/03/09 12:53:17 [INFO] All goroutines finished
+2025/03/09 12:53:21 [INFO] Starting server...
+2025/03/09 12:53:21 [INFO] Server starting on port 8080
+2025/03/09 12:53:39 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 12:54:21 [INFO] [Stats] Time: 2025-03-09T12:54:21Z, Goroutines: 6, Memory: {Alloc: 1.60MB, TotalAlloc: 1.60MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 12:54:22 [INFO] Shutdown signal received
+2025/03/09 12:54:22 [INFO] Waiting for all goroutines to finish...
+2025/03/09 12:54:22 [INFO] All goroutines finished
+2025/03/09 12:54:27 [INFO] Starting server...
+2025/03/09 12:54:27 [INFO] Server starting on port 8080
+2025/03/09 12:54:35 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 12:55:27 [INFO] [Stats] Time: 2025-03-09T12:55:27Z, Goroutines: 6, Memory: {Alloc: 1.60MB, TotalAlloc: 1.60MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 12:55:40 [INFO] Shutdown signal received
+2025/03/09 12:55:40 [INFO] Waiting for all goroutines to finish...
+2025/03/09 12:55:40 [INFO] All goroutines finished
+2025/03/09 12:55:45 [INFO] Starting server...
+2025/03/09 12:55:45 [INFO] Server starting on port 8080
+2025/03/09 12:55:51 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 12:56:30 [INFO] Shutdown signal received
+2025/03/09 12:56:30 [INFO] Waiting for all goroutines to finish...
+2025/03/09 12:56:30 [INFO] All goroutines finished
+2025/03/09 12:56:33 [INFO] Starting server...
+2025/03/09 12:56:33 [INFO] Server starting on port 8080
+2025/03/09 12:56:40 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 12:57:33 [INFO] [Stats] Time: 2025-03-09T12:57:33Z, Goroutines: 6, Memory: {Alloc: 1.60MB, TotalAlloc: 1.60MB, Sys: 7.02MB, NumGC: 0}
+2025/03/09 12:57:49 [INFO] Shutdown signal received
+2025/03/09 12:57:49 [INFO] Waiting for all goroutines to finish...
+2025/03/09 12:57:49 [INFO] All goroutines finished
+2025/03/09 12:57:54 [INFO] Starting server...
+2025/03/09 12:57:54 [INFO] Server starting on port 8080
+2025/03/09 12:58:01 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 12:58:26 [INFO] Shutdown signal received
+2025/03/09 12:58:26 [INFO] Waiting for all goroutines to finish...
+2025/03/09 12:58:26 [INFO] All goroutines finished
+2025/03/09 12:58:31 [INFO] Starting server...
+2025/03/09 12:58:31 [INFO] Server starting on port 8080
+2025/03/09 12:58:38 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 12:59:31 [INFO] [Stats] Time: 2025-03-09T12:59:31Z, Goroutines: 6, Memory: {Alloc: 1.60MB, TotalAlloc: 1.60MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 12:59:58 [INFO] Shutdown signal received
+2025/03/09 12:59:58 [INFO] Waiting for all goroutines to finish...
+2025/03/09 12:59:58 [INFO] All goroutines finished
+2025/03/09 13:00:02 [INFO] Starting server...
+2025/03/09 13:00:02 [INFO] Server starting on port 8080
+2025/03/09 13:01:02 [INFO] [Stats] Time: 2025-03-09T13:01:02Z, Goroutines: 5, Memory: {Alloc: 1.55MB, TotalAlloc: 1.55MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:02:02 [INFO] [Stats] Time: 2025-03-09T13:02:02Z, Goroutines: 5, Memory: {Alloc: 1.55MB, TotalAlloc: 1.55MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:03:02 [INFO] [Stats] Time: 2025-03-09T13:03:02Z, Goroutines: 5, Memory: {Alloc: 1.55MB, TotalAlloc: 1.55MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:04:02 [INFO] [Stats] Time: 2025-03-09T13:04:02Z, Goroutines: 5, Memory: {Alloc: 1.55MB, TotalAlloc: 1.55MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:04:19 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 13:05:02 [INFO] [Stats] Time: 2025-03-09T13:05:02Z, Goroutines: 6, Memory: {Alloc: 1.60MB, TotalAlloc: 1.60MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:06:02 [INFO] [Stats] Time: 2025-03-09T13:06:02Z, Goroutines: 5, Memory: {Alloc: 1.61MB, TotalAlloc: 1.61MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:06:14 [INFO] Shutdown signal received
+2025/03/09 13:06:14 [INFO] Waiting for all goroutines to finish...
+2025/03/09 13:06:14 [INFO] All goroutines finished
+2025/03/09 13:06:19 [INFO] Starting server...
+2025/03/09 13:06:19 [INFO] Server starting on port 8080
+2025/03/09 13:06:27 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 13:07:19 [INFO] [Stats] Time: 2025-03-09T13:07:19Z, Goroutines: 6, Memory: {Alloc: 1.60MB, TotalAlloc: 1.60MB, Sys: 7.02MB, NumGC: 0}
+2025/03/09 13:07:57 [INFO] Shutdown signal received
+2025/03/09 13:07:57 [INFO] Waiting for all goroutines to finish...
+2025/03/09 13:07:57 [INFO] All goroutines finished
+2025/03/09 13:08:02 [INFO] Starting server...
+2025/03/09 13:08:02 [INFO] Server starting on port 8080
+2025/03/09 13:08:09 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 13:09:02 [INFO] [Stats] Time: 2025-03-09T13:09:02Z, Goroutines: 6, Memory: {Alloc: 1.67MB, TotalAlloc: 1.67MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 13:10:02 [INFO] [Stats] Time: 2025-03-09T13:10:02Z, Goroutines: 5, Memory: {Alloc: 1.67MB, TotalAlloc: 1.67MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 13:10:16 [INFO] Shutdown signal received
+2025/03/09 13:10:16 [INFO] Waiting for all goroutines to finish...
+2025/03/09 13:10:16 [INFO] All goroutines finished
+2025/03/09 13:10:18 [INFO] Starting server...
+2025/03/09 13:10:18 [INFO] Server starting on port 8080
+2025/03/09 13:10:27 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 13:10:27 [ERROR] Plugin error: failed to send webhook: Post "https://your-webhook-url.com/logs": dial tcp: lookup your-webhook-url.com: no such host
+2025/03/09 13:11:18 [INFO] [Stats] Time: 2025-03-09T13:11:18Z, Goroutines: 6, Memory: {Alloc: 1.64MB, TotalAlloc: 1.64MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 13:12:18 [INFO] [Stats] Time: 2025-03-09T13:12:18Z, Goroutines: 5, Memory: {Alloc: 1.64MB, TotalAlloc: 1.64MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 13:13:18 [INFO] [Stats] Time: 2025-03-09T13:13:18Z, Goroutines: 5, Memory: {Alloc: 1.65MB, TotalAlloc: 1.65MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 13:14:18 [INFO] [Stats] Time: 2025-03-09T13:14:18Z, Goroutines: 5, Memory: {Alloc: 1.65MB, TotalAlloc: 1.65MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 13:15:18 [INFO] [Stats] Time: 2025-03-09T13:15:18Z, Goroutines: 5, Memory: {Alloc: 1.65MB, TotalAlloc: 1.65MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 13:16:18 [INFO] [Stats] Time: 2025-03-09T13:16:18Z, Goroutines: 5, Memory: {Alloc: 1.65MB, TotalAlloc: 1.65MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 13:17:18 [INFO] [Stats] Time: 2025-03-09T13:17:18Z, Goroutines: 5, Memory: {Alloc: 1.65MB, TotalAlloc: 1.65MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 13:18:18 [INFO] [Stats] Time: 2025-03-09T13:18:18Z, Goroutines: 5, Memory: {Alloc: 1.65MB, TotalAlloc: 1.65MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 13:19:18 [INFO] [Stats] Time: 2025-03-09T13:19:18Z, Goroutines: 5, Memory: {Alloc: 1.66MB, TotalAlloc: 1.66MB, Sys: 6.52MB, NumGC: 0}
+2025/03/09 13:19:35 [INFO] Shutdown signal received
+2025/03/09 13:19:35 [INFO] Waiting for all goroutines to finish...
+2025/03/09 13:19:35 [INFO] All goroutines finished
+2025/03/09 13:19:39 [INFO] Starting server...
+2025/03/09 13:19:39 [INFO] Server starting on port 8080
+2025/03/09 13:19:46 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 13:19:46 [ERROR] Plugin error: webhook request failed with status 404
+2025/03/09 13:19:58 [INFO] Shutdown signal received
+2025/03/09 13:19:58 [INFO] Waiting for all goroutines to finish...
+2025/03/09 13:19:58 [INFO] All goroutines finished
+2025/03/09 13:20:00 [INFO] Starting server...
+2025/03/09 13:20:00 [INFO] Server starting on port 8080
+2025/03/09 13:20:07 [DEBUG] C:/Code/auth0/exampleserver/internal/handlers/customers.go:31: Listing customers
+2025/03/09 13:21:00 [INFO] [Stats] Time: 2025-03-09T13:21:00Z, Goroutines: 9, Memory: {Alloc: 1.72MB, TotalAlloc: 1.72MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 13:22:00 [INFO] [Stats] Time: 2025-03-09T13:22:00Z, Goroutines: 6, Memory: {Alloc: 1.79MB, TotalAlloc: 1.79MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 13:23:00 [INFO] [Stats] Time: 2025-03-09T13:23:00Z, Goroutines: 5, Memory: {Alloc: 1.79MB, TotalAlloc: 1.79MB, Sys: 10.77MB, NumGC: 0}
+2025/03/09 13:23:23 [INFO] Shutdown signal received
+2025/03/09 13:23:23 [INFO] Waiting for all goroutines to finish...
+2025/03/09 13:23:23 [INFO] All goroutines finished
+2025/03/09 13:23:27 [INFO] Starting server...
+2025/03/09 13:23:27 [INFO] Server starting on port 8080
+2025/03/09 13:24:27 [INFO] [Stats] Time: 2025-03-09T13:24:27Z, Goroutines: 5, Memory: {Alloc: 1.54MB, TotalAlloc: 1.54MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:25:27 [INFO] [Stats] Time: 2025-03-09T13:25:27Z, Goroutines: 5, Memory: {Alloc: 1.54MB, TotalAlloc: 1.54MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:26:27 [INFO] [Stats] Time: 2025-03-09T13:26:27Z, Goroutines: 5, Memory: {Alloc: 1.54MB, TotalAlloc: 1.54MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:27:27 [INFO] [Stats] Time: 2025-03-09T13:27:27Z, Goroutines: 5, Memory: {Alloc: 1.54MB, TotalAlloc: 1.54MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:28:27 [INFO] [Stats] Time: 2025-03-09T13:28:27Z, Goroutines: 5, Memory: {Alloc: 1.54MB, TotalAlloc: 1.54MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:29:27 [INFO] [Stats] Time: 2025-03-09T13:29:27Z, Goroutines: 5, Memory: {Alloc: 1.54MB, TotalAlloc: 1.54MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:30:27 [INFO] [Stats] Time: 2025-03-09T13:30:27Z, Goroutines: 5, Memory: {Alloc: 1.54MB, TotalAlloc: 1.54MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:31:27 [INFO] [Stats] Time: 2025-03-09T13:31:27Z, Goroutines: 5, Memory: {Alloc: 1.55MB, TotalAlloc: 1.55MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:32:27 [INFO] [Stats] Time: 2025-03-09T13:32:27Z, Goroutines: 5, Memory: {Alloc: 1.55MB, TotalAlloc: 1.55MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:33:27 [INFO] [Stats] Time: 2025-03-09T13:33:27Z, Goroutines: 5, Memory: {Alloc: 1.55MB, TotalAlloc: 1.55MB, Sys: 6.77MB, NumGC: 0}
+2025/03/09 13:34:27 [INFO] [Stats] Time: 2025-03-09T13:34:27Z, Goroutines: 5, Memory: {Alloc: 1.55MB, TotalAlloc: 1.55MB, Sys: 6.77MB, NumGC: 0}

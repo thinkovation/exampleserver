@@ -1,0 +1,17 @@
+logs:
+  - type: file
+    path: "${LOG_DIR}/datadog.log"  # Will be replaced by environment variable
+    service: ${DD_SERVICE}
+    source: go
+    sourcecategory: sourcecode
+    log_processing_rules:
+      - type: multi_line
+        name: stack_trace
+        pattern: '^\s+at\s'
+      - type: mask_sequences
+        name: mask_sensitive_data
+        pattern: '(password=)[^\s]+'
+        replace_placeholder: '${1}********'
+    tags:
+      - "env:${DD_ENV}"
+      - "service:${DD_SERVICE}" 

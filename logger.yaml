@@ -1,0 +1,15 @@
+log_file: "logs/app.log"
+log_to_stdout: true
+debug: true
+rotation:
+  max_size: 10    # Maximum size in megabytes before rotating
+  max_age: 30     # Maximum number of days to retain old log files
+  max_backups: 5  # Maximum number of old log files to retain
+  compress: true  # Compress rotated files
+webhooks:
+  - url: "" #"http://localhost:8080/api/logs"
+    api_key: "thiskeyisnotused"
+    filter:
+      levels: ["ERROR", "FATAL", "DEBUG"]
+      contains: [] # Optional: filter by message contains ["critical","error"]
+      sources: [] #["database", "auth", "customers"]  # Optional: filter by source files

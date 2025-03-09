@@ -1,0 +1,393 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Example Server API",
+    "version": "1.0.0",
+    "description": "API documentation for the Example Server"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080",
+      "description": "Local development server"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      },
+      "apiKeyHeader": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-API-Key",
+        "description": "API key in header"
+      },
+      "apiKeyQuery": {
+        "type": "apiKey",
+        "in": "query",
+        "name": "API-KEY",
+        "description": "API key in query parameter"
+      }
+    },
+    "schemas": {
+      "DebugSettings": {
+        "type": "object",
+        "properties": {
+          "enabled": {
+            "type": "boolean",
+            "description": "Whether debug logging is enabled"
+          }
+        },
+        "required": ["enabled"]
+      },
+      "LogResponse": {
+        "type": "object",
+        "properties": {
+          "lines": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Array of log lines"
+          }
+        }
+      }
+    }
+  },
+  "paths": {
+    "/api/login": {
+      "post": {
+        "summary": "Login to get JWT token",
+        "tags": ["Authentication"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "username": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string",
+                    "format": "password"
+                  }
+                },
+                "required": ["username", "password"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful login",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "token": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Invalid credentials"
+          }
+        }
+      }
+    },
+    "/api/customers": {
+      "get": {
+        "summary": "Get list of customers",
+        "tags": ["Customers"],
+        "security": [
+          {
+            "bearerAuth": []
+          },
+          {
+            "apiKeyHeader": []
+          },
+          {
+            "apiKeyQuery": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of customers",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "customers": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Invalid or missing authentication"
+          }
+        }
+      }
+    },
+    "/api/loggersettings/debug": {
+      "post": {
+        "summary": "Set debug logging mode",
+        "tags": ["Logging"],
+        "security": [
+          {
+            "bearerAuth": []
+          },
+          {
+            "apiKeyHeader": []
+          },
+          {
+            "apiKeyQuery": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DebugSettings"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Debug settings updated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DebugSettings"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request body"
+          },
+          "401": {
+            "description": "Unauthorized - Invalid or missing authentication"
+          },
+          "405": {
+            "description": "Method not allowed"
+          }
+        }
+      }
+    },
+    "/api/logging/log": {
+      "get": {
+        "summary": "Retrieve log entries",
+        "tags": ["Logging"],
+        "security": [
+          {
+            "bearerAuth": []
+          },
+          {
+            "apiKeyHeader": []
+          },
+          {
+            "apiKeyQuery": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "from_time",
+            "in": "query",
+            "description": "Start time in either full RFC3339 format (e.g., '2024-03-10T15:04:05Z') or just time (e.g., '15:04:05'). Time-only format will use today's date.",
+            "schema": {
+              "type": "string",
+              "format": "date-time",
+              "example": ["2024-03-10T15:04:05Z", "15:04:05"]
+            }
+          },
+          {
+            "name": "to_time",
+            "in": "query",
+            "description": "End time in either full RFC3339 format (e.g., '2024-03-10T15:04:05Z') or just time (e.g., '15:04:05'). Time-only format will use today's date.",
+            "schema": {
+              "type": "string",
+              "format": "date-time",
+              "example": ["2024-03-10T15:04:05Z", "15:04:05"]
+            }
+          },
+          {
+            "name": "last_lines",
+            "in": "query",
+            "description": "Number of recent lines",
+            "schema": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          {
+            "name": "last_minutes",
+            "in": "query",
+            "description": "Number of recent minutes",
+            "schema": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          {
+            "name": "format",
+            "in": "query",
+            "description": "Output format",
+            "schema": {
+              "type": "string",
+              "enum": ["json", "jsonpretty", "csv", "text"],
+              "default": "json"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Log entries retrieved successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LogResponse"
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid parameters"
+          },
+          "401": {
+            "description": "Unauthorized - Invalid or missing authentication"
+          },
+          "405": {
+            "description": "Method not allowed"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      },
+      "post": {
+        "summary": "Retrieve log entries",
+        "tags": ["Logging"],
+        "security": [
+          {
+            "bearerAuth": []
+          },
+          {
+            "apiKeyHeader": []
+          },
+          {
+            "apiKeyQuery": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "from_time": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "Start time in either full RFC3339 format (e.g., '2024-03-10T15:04:05Z') or just time (e.g., '15:04:05'). Time-only format will use today's date.",
+                    "example": ["2024-03-10T15:04:05Z", "15:04:05"]
+                  },
+                  "to_time": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "End time in either full RFC3339 format (e.g., '2024-03-10T15:04:05Z') or just time (e.g., '15:04:05'). Time-only format will use today's date.",
+                    "example": ["2024-03-10T15:04:05Z", "15:04:05"]
+                  },
+                  "last_lines": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "description": "Number of recent lines"
+                  },
+                  "last_minutes": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "description": "Number of recent minutes"
+                  },
+                  "format": {
+                    "type": "string",
+                    "enum": ["json", "jsonpretty", "csv", "text"],
+                    "default": "json",
+                    "description": "Output format"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Log entries retrieved successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LogResponse"
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request body"
+          },
+          "401": {
+            "description": "Unauthorized - Invalid or missing authentication"
+          },
+          "405": {
+            "description": "Method not allowed"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    }
+  }
+} 
